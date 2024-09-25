@@ -1,0 +1,16 @@
+---
+title: "Plan372-hw2"
+author: "Jeron Perry"
+format: html
+---
+
+Load the needed Libraries. 
+```{r}
+library(tidyverse) # Load the tidyverse library
+library(lubridate) # Load the lubridate library
+```
+
+Load the data from CSV.
+```{r}
+data = read_csv(here::here("Fire_Incidents.csv")) # Load the restaurant data set using the read_csv function
+```
